@@ -447,7 +447,7 @@ def delete_phone() :
         if verif_delete == 'y' :
             for key in katalog.keys() :
                 del katalog[key][i]
-        print('****Data {} sudah terhapus****'.format(kode_hapus))
+            print('****Data {} sudah terhapus****'.format(kode_hapus))
     else:
         print('****Data tidak ada****')
     
